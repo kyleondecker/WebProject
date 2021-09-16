@@ -1,0 +1,141 @@
+body{
+	background-image: url("./tech.jpeg");
+}
+
+.topnav{
+	background-image: url("./tech2.jpeg");
+	height: 200px;
+	padding-left: 5px;
+	padding-top: 20px;
+	text-align: center;
+
+}
+.topnav h1 {
+	font-size: 80px;
+}
+
+.topnav a{
+	display: block;
+	float: right;
+	text-align: center;
+	color: white;
+	padding: 10px;
+	background-color: black;
+	margin: 5px;
+
+}
+h1{
+	color: white;
+}
+a:hover{
+	color: darkgrey;
+}
+
+#personal{
+	color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin: 10px;
+	font-size: 24px;
+}
+
+.main {
+	background-color: rgba(128,128,128,.5);
+	color: white;
+	display: block;
+	margin-top: 100px;
+	padding: 5px;
+	height: 400px;
+}
+#classes{
+
+	height: 400px;
+	border: 5px solid black;
+	color: white;
+	background-color: rgba(0,0,0,0);
+	margin-top: 100px;
+	font-size: 24px;
+
+}
+ul{
+	font-weight: bold;
+}
+li {
+	font-weight: normal;
+}
+.classlist{
+	color: white;
+	font-weight: normal;
+}
+
+#languages{
+	display: inline-block;
+	width: 50%;
+}
+.languagebox{
+	display: inline-block;
+	height: 200px;
+	border: 5px solid red;
+	width: 49%;
+	background-color: rgba(0, 0, 0, .8);
+	color: white;
+	font-weight: normal;
+	padding-top: 10px;
+	margin-top: 100px;
+	margin-bottom: 20px;
+}
+.hobbybox{
+	display: inline-block;
+	height: 200px;
+	border: 5px solid gray;
+	width: 49%;
+	color: white;
+	font-weight: normal;
+	background-color: rgba(0, 0, 0, .8);
+	padding-top: 10px;
+	margin-top: 100px;
+	margin-bottom: 20px;
+}
+
+.family{
+	float: left;
+	width: 50%;
+}
+.inputtext{
+	color: white;
+}
+#hobby{
+	display: inline-block;
+	width: 50%;
+}
+#date{
+	color:  white;
+	float: left;
+	dispay: block;
+	width: 100%;
+}
+
+#hobbyimage{
+float: right;
+}
+
+#javaimage{
+	float: right;
+}
+
+#javaimage img{
+	height: 150px;
+	width: 150px;
+	margin-right: 100px;
+	margin-top: 10px;
+}
+
+
+#hobbyimage img{
+margin-top: 10px;
+height: 150px;
+width: 150px;
+margin-right: 100px;
+}
+
+}

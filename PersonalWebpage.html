@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Personal Webpage</title>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./index.js"></script></head>
+<body>
+    <div class="topnav">
+            <a href="./ResumeOndecker.pdf">Resume</a>
+            <a href="#personal">Personal</a>
+            <a href="#classes">Classes</a>
+            <a href="#languages">Languages</a>
+            <a href="#hobby">Hobbies</a>
+            <h1>Kyle Ondecker</h1>
+        </div>
+    <div class="main body">
+        <div id="personal">
+        I received a Bachelor's Degree in Biology from Kent State in 2017. I spent a couple years after school working but I started to realize I wanted to do something else with my career. I started researching careers and took some career tests. I kept getting engineering as my top career in all of the tests I took. So I started to learn basic coding online. After a few weeks I realized I was really enjoying programming. So I decided to start taking some computer science classes at Ohio State to really determine if I wanted to pursue a career in software development. The classes I took included leasrning the basics of object oriented programming, using API's, virtual machines, compiling code, analysis of algorithms, bytecode, database management, and different coding languages. I included some of the computer science course work, including each syllabus being linked.
+        </div>
+    </div>
+<div id="classes">
+    <ul id="classtitle">Relevant Classes<br>
+        <li><a class="classlist" href="http://web.cse.ohio-state.edu/cse1222/syllabus_template.pdf">Introduction to Computer Programming in C++ for Engineers and Scientists</a></li><br>
+        <li><a class="classlist" href="https://coe-portal.cse.ohio-state.edu/pdf-exports/CSE/CSE-2321.pdf" target="_blank">Foundations I: Discrete Structures</a></li><br>
+        <li><a class="classlist" href="http://web.cse.ohio-state.edu/software/2221/web-sw1/syllabus.pdf" target="_blank">Software I: Software Components</a></li><br>
+        <li><a class="classlist" href="http://web.cse.ohio-state.edu/software/2231/web-sw2/syllabus.pdf" target="_blank">Software II: Software Development and Design</a></li><br>
+        <li><a class="classlist" href="https://coe-portal.cse.ohio-state.edu/pdf-exports/CSE/CSE-3241.pdf" target="_blank">Introduction to Database Systems</a></li><br>
+    </ul>
+</div>
+<div class="languagebox">
+    <div id="languages">
+        <ul>Coding Languages
+            <li>Java</li>
+            <li>C++</li>
+            <li>Swift</li>
+            <li>SQL</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ul>
+    </div>
+    <div id="javaimage">
+        <img src="./javapic.jpeg">
+    </div>
+</div>
+<div class="hobbybox">
+    <div id="hobby">
+        <ul class="hobbylist">Hobbies
+            <li>Spending time with family</li>
+            <li>Home improvement projects</li>
+            <li>Disc Golf</li>
+            <li>Basketball</li>
+            <li>Football</li>
+            <li>Golf</li>
+            <li>Learning new coding languages</li>
+        </ul>
+    </div>
+    <div id="hobbyimage">
+        <img src="./browns.jpeg">
+    </div>
+</div>
+<div class="inputtext">
+    <h2><b>Contact Me</b></h2>
+    <form action="mailto:kyleondecker@gmail.com" method ="POST" enctype="multipart/form-data" name="EmailForm">
+        Name:<br>
+        <input type="text" name="contact"><br>
+        Message:<br>
+        <textarea name="comments" rows="5" cols="20"></textarea><br>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset"></form>
+</div>
+<div>
+<p id="date"></p>
+<script>
+    var dt = new Date();
+    document.getElementById('date').innerHTML = dt;
+</script>
+</div>
+</form>
+</body>
+</html>
