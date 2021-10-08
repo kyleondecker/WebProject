@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
     <link rel="stylesheet" href="./style.css">
-    <script src="./index.js"></script></head>
+    </head>
 <body>
     <div class="topnav">
             <a href="./ResumeOndecker.pdf">Resume</a>
@@ -14,7 +14,7 @@
             <a href="#classes">Classes</a>
             <a href="#languages">Languages</a>
             <a href="#hobby">Hobbies</a>
-            <h1>Kyle Ondecker</h1>
+            <h1 id="name">Kyle Ondecker</h1>
         </div>
     <div class="main body">
         <div id="personal">
@@ -75,6 +75,18 @@
 <div>
 <p id="date"></p>
 <script>
+    var t = setInterval(move, 10);
+    var pos = 0;
+    var doc = document.getElementById("name");
+    function move() {
+      if (pos < 1200) {
+        pos += 1;
+        doc.style.left = pos +"px";
+      }
+      else {
+        clearInterval(t);
+      }
+    }
     var dt = new Date();
     document.getElementById('date').innerHTML = dt;
 </script>
