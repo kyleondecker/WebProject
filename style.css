@@ -11,7 +11,10 @@ body{
 
 }
 .topnav h1 {
-	font-size: 80px;
+	font-size: 50px;
+	position: relative;
+        width: 400px;
+	height: 100px;
 }
 
 .topnav a{
@@ -136,6 +139,4 @@ margin-top: 10px;
 height: 150px;
 width: 150px;
 margin-right: 100px;
-}
-
 }
